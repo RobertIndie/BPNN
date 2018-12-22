@@ -1,7 +1,4 @@
-function [ out ] = sigmoid( in )
-%SIGMOID Summary of this function goes here
-%   Detailed explanation goes here
-
-    out = 1./(1+exp(-in));
-    
+function [ y ] = sigmoid( x )
+% sigmoid º¯Êý
+    y = 1./(1+exp(-x));
 end
