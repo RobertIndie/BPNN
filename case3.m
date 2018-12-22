@@ -18,7 +18,7 @@ title('ÑµÁ·¼¯Êı¾İ');
 %% ÑµÁ·
 levels = [3,7,1];
 
-[W,theta,record] = BP_tranning(data,levels,0.5,1,@compute_error);
+[W,theta,record] = train(data,levels,0.5,1,@compute_error);
 
 %% ²âÊÔ
 data_len = 1000;
